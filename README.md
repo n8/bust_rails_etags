@@ -1,4 +1,4 @@
-# BustRailsEtags
+# Bust Rails Etags
 
 Helps bust http caching on new deploys of a Rails app using the environment variable: 
 

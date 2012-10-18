@@ -6,9 +6,9 @@ ENV["ETAG_VERSION_ID"]
 
 You can see more explanation and history of the problem and this solution at my blog: 
 
-https://svbtle.com/rails-caching-a-problem-with-etags-and-a-solution
+[Rails Caching: A problem with etags and a solution](https://svbtle.com/rails-caching-a-problem-with-etags-and-a-solution)
 
-Or this summary: 
+Or here's a summary: 
 
 Rails has awesome http caching abilities. However, when you deploy a new version of your Rails app, there isn't a good way to have that http cache get busted. And so browsers end up carrying around an old version. 
 

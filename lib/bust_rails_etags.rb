@@ -11,11 +11,11 @@ module BustRailsEtags
     def etag_with_version_id=(etag)
 
       etag_elements = []
+      etag_elements << ENV['ETAG_VERSION_ID']
 
       if etag.is_a?(Array)
-        etag_elements = ENV['ETAG_VERSION_ID'] + etag
+         etag_elements += etag
       else
-        etag_elements << ENV['ETAG_VERSION_ID']
         etag_elements << etag
       end
     

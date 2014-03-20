@@ -8,7 +8,7 @@ ENV["ETAG_VERSION_ID"]
 
 You can see more explanation and history of the problem and this solution at my blog: 
 
-[Rails Caching: A problem with etags and a solution](https://svbtle.com/rails-caching-a-problem-with-etags-and-a-solution)
+[Rails Caching: A problem with etags and a solution](http://ninjasandrobots.com/rails-caching-a-problem-with-etags-and-a-solution)
 
 Or here's a summary: 
 
